@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 </head>
-    <body>
-    </body>
+<body ng-controller="mainCtrl" class="container" style="padding-top: 30px">
+    <div class="row">
+        <div class="col-md-3">1</div>
+        <training-day day="Monday"></training-day>
+        <training-day day="Tuesday"></training-day>
+        <training-day day="Wednesday"></training-day>
+    </div>
+    <div class="row">
+        <training-day day="Thursday"></training-day>
+        <training-day day="Friday"></training-day>
+        <training-day day="Saturday"></training-day>
+        <training-day day="Sunday"></training-day>
+    </div>
+</body>
 </html>
