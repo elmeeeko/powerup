@@ -24,6 +24,52 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "powerapp.site", "http://loc
 		SlnRelativePath = "powerapp.site\"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D08504A5-633C-4238-B059-682453EA65F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "html", "html", "{F074E998-6A36-48B2-BB4B-C56BF76B3C11}"
+	ProjectSection(SolutionItems) = preProject
+		src\html\index.html = src\html\index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{5B4D4976-9061-455E-80AA-850443FEF167}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{4531E1FA-94CD-46AE-A01A-E0275EAE193F}"
+	ProjectSection(SolutionItems) = preProject
+		src\js\app.js = src\js\app.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "less", "less", "{C3300261-50C6-4195-AF39-60FF23E27E7A}"
+	ProjectSection(SolutionItems) = preProject
+		src\less\app.less = src\less\app.less
+		src\less\mixins.less = src\less\mixins.less
+		src\less\responsive.less = src\less\responsive.less
+		src\less\variables.less = src\less\variables.less
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "templates", "templates", "{2630BD86-35CB-459F-B008-EE99DFE0D59D}"
+	ProjectSection(SolutionItems) = preProject
+		src\templates\home.html = src\templates\home.html
+		src\templates\sidebar.html = src\templates\sidebar.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "controllers", "controllers", "{862C538E-AD7F-46EB-B71D-E8DCA2AEC112}"
+	ProjectSection(SolutionItems) = preProject
+		src\js\controllers\main_controller.js = src\js\controllers\main_controller.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "directives", "directives", "{9A1804F0-03C7-420A-B2BA-A5948BA8CD9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{77231CAB-C299-4AA1-8B92-00BE4417CFEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{3DF26834-3548-44B6-836A-DC0C14193D12}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		bower.json = bower.json
+		config.js = config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,5 +80,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F074E998-6A36-48B2-BB4B-C56BF76B3C11} = {D08504A5-633C-4238-B059-682453EA65F6}
+		{5B4D4976-9061-455E-80AA-850443FEF167} = {D08504A5-633C-4238-B059-682453EA65F6}
+		{4531E1FA-94CD-46AE-A01A-E0275EAE193F} = {D08504A5-633C-4238-B059-682453EA65F6}
+		{C3300261-50C6-4195-AF39-60FF23E27E7A} = {D08504A5-633C-4238-B059-682453EA65F6}
+		{2630BD86-35CB-459F-B008-EE99DFE0D59D} = {D08504A5-633C-4238-B059-682453EA65F6}
+		{862C538E-AD7F-46EB-B71D-E8DCA2AEC112} = {4531E1FA-94CD-46AE-A01A-E0275EAE193F}
+		{9A1804F0-03C7-420A-B2BA-A5948BA8CD9C} = {4531E1FA-94CD-46AE-A01A-E0275EAE193F}
+		{77231CAB-C299-4AA1-8B92-00BE4417CFEA} = {4531E1FA-94CD-46AE-A01A-E0275EAE193F}
 	EndGlobalSection
 EndGlobal
